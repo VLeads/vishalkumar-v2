@@ -9,14 +9,14 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Vishal Kumar | React and Frontend Developer"
-        description="Learn more about Vishal Kumar, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Vishal Kumar | MERN and FullStack Developer"
+        description="Learn more about Vishal Kumar, a dedicated MERN and FullStack Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Vishal Kumar - React and Frontend Developer",
+          title: "Learn About Vishal Kumar - MERN and FullStack Developer",
           description:
-            "Dive into the story of Vishal Kumar, a React and Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Vishal Kumar, a MERN and FullStack Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -33,7 +33,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
+              "About Me, FullStack Developer, MERN Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
           },
         ]}
       />

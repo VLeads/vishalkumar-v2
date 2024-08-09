@@ -39,7 +39,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "React Developer, FullStack Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, MERN Development, Web Development, JavaScript Developer, Responsive Design",
           },
         ]}
       />

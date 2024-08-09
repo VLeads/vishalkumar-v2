@@ -12,7 +12,7 @@ const RATE_LIMITER_EXPIRY_DATE_COOKIE_NAME = "userUuid_expires" as const;
 export type rateLimiterApiOptions = {
   uniqueTokenPerInterval?: number;
   interval?: number;
-  getUserId: (req: NextApiRequest, res: NextApiResponse) => string; // eslint-disable-line no-unused-vars
+  getUserId: (req: NextApiRequest, res: NextApiResponse) => string;
 };
 
 /**

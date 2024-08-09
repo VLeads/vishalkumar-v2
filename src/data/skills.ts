@@ -2,6 +2,10 @@ import {
   SiExpress,
   SiSocketdotio,
   SiNextdotjs,
+  SiGithub,
+  SiJira,
+  SiAntdesign,
+  SiGraphql,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -32,6 +36,7 @@ import MongoDBSvg from "@/public/icons/mongodb.svg";
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+import { Kanban } from "lucide-react";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -94,6 +99,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Vite",
         icon: ViteSvg,
       },
+      {
+        name: "Ant Design",
+        icon: SiAntdesign,
+      },
     ],
   },
   {
@@ -115,6 +124,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "MongoDB",
         icon: MongoDBSvg,
       },
+      {
+        name: 'GraphQL',
+        icon: SiGraphql,
+      }
     ],
   },
   {
@@ -125,8 +138,20 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: GitSvg,
       },
       {
+        name: "Github",
+        icon: SiGithub,
+      },
+      {
         name: "Postman",
         icon: PostmanSvg,
+      },
+      {
+        name: "Jira",
+        icon: SiJira,
+      },
+      {
+        name: "Bitrix 24",
+        icon: Kanban,
       },
     ],
   },
