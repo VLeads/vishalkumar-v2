@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -45,7 +44,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Rapid Store",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "🌟",
     imageUrl: [
       "/images/projects/store.png",
       "/images/projects/store2.png",
@@ -57,7 +56,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "DigiMantra Labs site",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "🌟",
     imageUrl: [
       "/images/projects/dml.png",
     ],
@@ -68,7 +67,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Rapid Fire (Social Media app)",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "🌟",
     imageUrl: [
       "/images/projects/fire1.png",
       "/images/projects/fire.png",
@@ -80,7 +79,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Rapid TV",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "🌟",
     imageUrl: [
       "/images/projects/tv.png",
       "/images/projects/tv1.png",
@@ -95,7 +94,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
 export const BLOGS_CARD: ProjectCardProps[] = [
   {
     name: "Understand Debouncing and Throttling in javascript with examples",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "📝",
     imageUrl: [
       "/images/projects/debounce.png",
     ],
@@ -106,7 +105,7 @@ export const BLOGS_CARD: ProjectCardProps[] = [
   },
   {
     name: "How to create your own custom Hooks in React (extensive guide)",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "✍",
     imageUrl: [
       "/images/projects/hooks.png",
     ],
@@ -116,7 +115,7 @@ export const BLOGS_CARD: ProjectCardProps[] = [
   },
   {
     name: "10 Important productivity tools to make developer life easier 👨‍💻👨‍💻",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "📝",
     imageUrl: [
       "/images/projects/tools.png",
     ],
@@ -127,7 +126,7 @@ export const BLOGS_CARD: ProjectCardProps[] = [
   },
   {
     name: "map, filter, reduce functions in JavaScript made easy 🔥",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "✍",
     imageUrl: [
       "/images/projects/filter.png",
     ],

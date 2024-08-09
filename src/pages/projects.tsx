@@ -8,15 +8,15 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Vishal Kumar - React and Frontend Developer Portfolio"
-        description="Explore a collection of projects by Vishal Kumar, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Vishal Kumar - MERN and FullStack Developer Portfolio"
+        description="Explore a collection of projects by Vishal Kumar, a seasoned MERN and FullStack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
           title:
-            "Discover Projects by Vishal Kumar - React and Frontend Developer",
+            "Discover Projects by Vishal Kumar - MERN and FullStack Developer",
           description:
-            "Explore a showcase of projects crafted by Vishal Kumar, a React and Frontend Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Vishal Kumar, a MERN and FullStack Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -33,7 +33,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects, Portfolio, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects, Portfolio, MERN stack Developer, FullStack Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
           },
         ]}
       />
