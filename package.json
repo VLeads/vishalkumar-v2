@@ -11,8 +11,7 @@
     "sitemap": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./src/scripts/generateSitemap.mjs",
     "analyze": "cross-env ANALYZE=true next build",
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,mdx,css,json}\"",
-    "format:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,mdx,css,json}\"",
-    "prepare": "husky install"
+    "format:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,mdx,css,json}\""
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
@@ -47,7 +46,6 @@
     "autoprefixer": "10.4.14",
     "cross-env": "^7.0.3",
     "globby": "^14.0.0",
-    "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "postcss": "8.4.24",
     "prettier": "^2.8.8",

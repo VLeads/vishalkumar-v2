@@ -4,29 +4,30 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Rapid Store",
+    title: "EarthLink",
     href: "/projects",
-    tags: ["Razorpay-payment-integration", "Auth", "ReactJS", "Rapid-UI (my component library)", "Context API", "UseReducer"],
+    tags: [
+      "ReactJS",
+      "Nextjs",
+      "Styled Components",
+      "Scss",
+      "GraphQL",
+      "Microservices",
+      "Payment Gateway",
+    ],
     image: {
-      LIGHT: "/images/projects/store.png",
-      DARK: "/images/projects/store.png",
+      LIGHT: "/images/projects/earthlink2.png",
+      DARK: "/images/projects/earthlink2.png",
     },
   },
   {
     index: 1,
-    title: "DigiMantra Labs site",
+    title: "Rapid Store",
     href: "/projects",
-    tags: [
-      "Nextjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "GraphQL",
-      "Chatbot",
-    ],
+    tags: ["Razorpay-payment-integration", "Auth", "ReactJS", "Rapid-UI", "Context API", "UseReducer"],
     image: {
-      LIGHT: "/images/projects/dml.png",
-      DARK: "/images/projects/dml.png",
+      LIGHT: "/images/projects/store.png",
+      DARK: "/images/projects/store.png",
     },
   },
   {
@@ -35,7 +36,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["ReactJS", "Redux-Toolkit", "RapidUI", "DarkMode"],
     image: {
-      LIGHT: "/images/projects/fire1.png",
+      LIGHT: "/images/projects/fire.png",
       DARK: "/images/projects/fire.png",
     },
   },
@@ -43,8 +44,21 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
+    name: "EarthLink",
+    favicon: "🌍",
+    imageUrl: [
+      "/images/projects/earthlink3.png",
+      "/images/projects/earthlink2.png",
+      "/images/projects/earthlink.png",
+    ],
+    description:
+      "EarthLink is an American Internet service provider.  The New York Times described Earthlink as the 'second largest Internet service provider after America Online.'",
+    sourceCodeHref: "",
+    liveWebsiteHref: "https://www.earthlink.net/",
+  },
+  {
     name: "Rapid Store",
-    favicon: "🌟",
+    favicon: "💻",
     imageUrl: [
       "/images/projects/store.png",
       "/images/projects/store2.png",
@@ -56,7 +70,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "DigiMantra Labs site",
-    favicon: "🌟",
+    favicon: "📢",
     imageUrl: [
       "/images/projects/dml.png",
     ],
@@ -67,7 +81,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Rapid Fire (Social Media app)",
-    favicon: "🌟",
+    favicon: "🐤",
     imageUrl: [
       "/images/projects/fire1.png",
       "/images/projects/fire.png",
@@ -78,8 +92,21 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://rapidfire.vercel.app/",
   },
   {
+    name: "Rapid UI",
+    favicon: "🎨",
+    imageUrl: [
+      "/images/projects/rapidui1.png",
+      "/images/projects/rapidui2.png",
+      "/images/projects/rapidui.png",
+    ],
+    description:
+      "Rapid UI is an Open Source CSS library, integrated with pre-defined styled classes, and Utilites, for a quick creation of websites, with much focus on Functionality.",
+    sourceCodeHref: "https://github.com/VLeads/rapid-ui",
+    liveWebsiteHref: "https://rapidui.netlify.app/",
+  },
+  {
     name: "Rapid TV",
-    favicon: "🌟",
+    favicon: "📺",
     imageUrl: [
       "/images/projects/tv.png",
       "/images/projects/tv1.png",
@@ -87,7 +114,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Rapid TV is a video library for tech enthusiast. It shows videos based on New gadgets arriving in the market, product reviews, tech news and whats overall happening in the market revolving around this theme.",
     sourceCodeHref: "https://github.com/vleads/rapidtv",
-    liveWebsiteHref: "https://rapidfire.vercel.app/",
+    liveWebsiteHref: "https://rapidtv.vercel.app/",
   },
 ];
 
