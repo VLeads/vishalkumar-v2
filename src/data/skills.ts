@@ -6,6 +6,7 @@ import {
   SiJira,
   SiAntdesign,
   SiGraphql,
+  SiDocker,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -36,7 +37,8 @@ import MongoDBSvg from "@/public/icons/mongodb.svg";
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
-import { Kanban } from "lucide-react";
+import { CloudUploadIcon, Kanban } from "lucide-react";
+import { BiLogoJava } from "react-icons/bi";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -62,6 +64,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Typescript",
         icon: TypescriptSvg,
       },
+      {
+        name: "Java",
+        icon: BiLogoJava
+      }
     ],
   },
   {
@@ -103,6 +109,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Ant Design",
         icon: SiAntdesign,
       },
+      {
+        name: 'Docker',
+        icon: SiDocker
+      }
     ],
   },
   {
@@ -146,13 +156,17 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: PostmanSvg,
       },
       {
-        name: "Jira",
+        name: "Bitbucket",
         icon: SiJira,
       },
       {
         name: "Bitrix 24",
         icon: Kanban,
       },
+      {
+        name: "Cloudinary",
+        icon: CloudUploadIcon
+      }
     ],
   },
 ];
