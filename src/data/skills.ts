@@ -7,6 +7,7 @@ import {
   SiAntdesign,
   SiGraphql,
   SiDocker,
+  SiBitbucket,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -157,7 +158,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "Bitbucket",
-        icon: SiJira,
+        icon: SiBitbucket,
       },
       {
         name: "Bitrix 24",
