@@ -18,6 +18,15 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "Sep 2022 - Aug 2024",
     description:
-      "Development and project execution are my passion. I thrive on the challenges of bringing ideas to life through coding and turning concepts into functional, robust solutions. With meticulous planning, efficient workflows, and a keen eye for detail, I ensured successful project delivery, meeting objectives and exceeding expectations.",
-  }
+      "Passionate about development and project execution, I enjoy turning ideas into functional, robust solutions through clean, efficient code. With careful planning, optimized workflows, and attention to detail, I ensure successful delivery that meets goals and exceeds expectations.",
+  },
+  {
+    title: "Software Developer",
+    organisation: {
+      name: "Antino Labs",
+      href: "https://www.antino.com/",
+    },
+    date: "Sep 2024 - Present",
+    description: "Worked on large-scale web applications by modernizing legacy code, improving architecture for scalability, and boosting performance. Led efforts to reduce code complexity, speed up load times, and enforce code quality through better tools and strict standards.",
+  },
 ];
